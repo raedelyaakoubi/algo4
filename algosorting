@@ -1,0 +1,16 @@
+ALGORITHM tri
+VAR
+   tmp:INTEGER=0;
+   i:INTEGER;
+   j:INTEGER;
+BEGIN
+ for(i=0;i<length.arr;i++){
+    tmp=arr[i]
+    j=i-1
+ while(tmp<arr[j]and j>0)do 
+arr[j+1]=arr[j]
+j--
+END_WHILE
+ arr[j+1]=tmp
+ }
+END
